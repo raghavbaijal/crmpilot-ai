@@ -1,0 +1,16 @@
+export const API = {
+  qualifyLead: "http://localhost:5678/webhook/lead-qualification",
+  getLeads: "http://localhost:5678/webhook/leads",
+  salesCopilot: "http://localhost:5678/webhook/sales-copilot",
+  communication: "http://localhost:5678/webhook/communication-generator",
+  dashboardSummary: "http://localhost:5678/webhook/dashboard-summary",
+  analytics: "http://localhost:5678/webhook/analytics",
+  pipeline: "http://localhost:5678/webhook/pipeline",
+  executiveInsights: "http://localhost:5678/webhook/executive-insights",
+  leadTimeline: "http://localhost:5678/webhook/lead-timeline",
+  getNotes: "http://localhost:5678/webhook/notes",
+  addNote: "http://localhost:5678/webhook/add-note",
+  getTasks: "http://localhost:5678/webhook/tasks",
+  addTask: "http://localhost:5678/webhook/add-task",
+  updateTask: "http://localhost:5678/webhook/update-task",
+};
