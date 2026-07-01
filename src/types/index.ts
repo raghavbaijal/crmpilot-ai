@@ -7,6 +7,8 @@ export * from './managerInsights';
 export * from './timeline';
 export * from './notes';
 export * from './tasks';
+export * from './activity';
+
 
 
 

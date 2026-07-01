@@ -8,6 +8,7 @@ import { ManagerInsightsCard } from './ManagerInsightsCard';
 import { CommunicationCenter } from './CommunicationCenter';
 import { NotesOverview } from '../notes/NotesOverview';
 import { TaskOverview } from '../tasks/TaskOverview';
+import { ActivityFeed } from '../activity/ActivityFeed';
 
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
@@ -207,6 +208,11 @@ export const CopilotWorkspace: React.FC<CopilotWorkspaceProps> = ({ onBack }) =>
 
         <motion.div variants={itemVariants} className="pt-8">
           <CommunicationCenter />
+        </motion.div>
+
+        {/* CRM Activity Feed (Timeline UI) */}
+        <motion.div variants={itemVariants} className="pt-8">
+          <ActivityFeed />
         </motion.div>
 
         {/* Lead Notes Workspace */}
