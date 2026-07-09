@@ -13,4 +13,7 @@ export const API = {
   getTasks: "http://localhost:5678/webhook/tasks",
   addTask: "http://localhost:5678/webhook/add-task",
   updateTask: "http://localhost:5678/webhook/update-task",
+  getFollowups: "http://localhost:5678/webhook/followups",
+  addFollowup: "http://localhost:5678/webhook/add-followup",
+  updateFollowup: "http://localhost:5678/webhook/update-followup",
 };

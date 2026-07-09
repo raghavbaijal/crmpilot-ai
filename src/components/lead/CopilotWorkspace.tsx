@@ -9,6 +9,7 @@ import { CommunicationCenter } from './CommunicationCenter';
 import { NotesOverview } from '../notes/NotesOverview';
 import { TaskOverview } from '../tasks/TaskOverview';
 import { ActivityFeed } from '../activity/ActivityFeed';
+import { FollowupOverview } from '../followups/FollowupOverview';
 
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
@@ -223,6 +224,11 @@ export const CopilotWorkspace: React.FC<CopilotWorkspaceProps> = ({ onBack }) =>
         {/* Lead Tasks Workspace */}
         <motion.div variants={itemVariants} className="pt-8">
           <TaskOverview />
+        </motion.div>
+
+        {/* Lead Follow-ups Workspace */}
+        <motion.div variants={itemVariants} className="pt-8">
+          <FollowupOverview />
         </motion.div>
       </>
     )}
